@@ -1,0 +1,47 @@
+.video{
+	padding: 320px 0;
+	background: url(../img/Main_photo_BG.png) center center no-repeat;
+	background-size:cover;
+	&__headline{
+		font-family: 'BebasNeue Bold', sans-serif;
+		color: $red;
+		text-transform: uppercase;
+		font-size: 112px;
+		margin:0;
+		margin-bottom: 48px;
+	}
+	&__text{
+		font-family: 'Raleway', sans-serif;
+		font-size: 18px;
+		line-height: 36px;
+		color: $white;
+	}
+	&__image-box{
+		position: relative;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		height: 299.6px;
+	}	
+	&__svg{
+		position: absolute;
+		opacity: 0.7;
+	}	
+}
+
+@media (max-width: 768px){
+	.video{
+		padding: 50px 0;
+		&__headline{
+			text-align: center;
+		}	
+	}
+}
+
+@media (max-width: 475px){
+	.video{
+		&__headline{
+			font-size: 70px;
+		}	
+	}	
+}

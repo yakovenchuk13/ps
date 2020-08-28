@@ -1,0 +1,133 @@
+
+
+
+
+.section-6 
+{
+background-color: black;
+}
+
+.section-6__content-body {
+}
+
+
+.section-6__content {
+
+}
+
+
+
+.section-6__content-body 
+{
+list-style: none;
+}
+.section-6__content-question
+{
+list-style: none;
+
+
+}
+
+.section-6__content-answer 
+{
+
+}
+
+/* Убираем стандартный маркер Chrome */
+details summary::-webkit-details-marker {
+	display: none
+  }
+
+
+  
+
+
+.section-6__content-card
+  {
+width:45%;
+position: relative;
+margin:2em 0;
+padding:1em;
+
+}
+
+
+
+
+
+
+.section-6__content-card-question
+{
+@include font-size__normal;
+display:block;
+outline: none;
+transition:all 0.3s;
+cursor: help;
+
+&:hover{
+  transition: 0.3s;
+  border-bottom: 1px  #e8bf5d solid ;
+  }
+&:focus 
+{
+
+
+color :#daa731 ;
+i {
+  display: none;
+}
+}
+}
+
+
+
+
+
+
+  .section-6__content-card-answer
+{
+
+transition: 3s;
+transform: translate(120% ,-1em);
+display:block;
+border: #e8bf5d 2px solid;
+padding:2em;
+}
+
+
+
+@media screen and (max-width: 992px) 
+{
+
+}
+
+@media screen and (max-width: 769px) 
+{
+  .section-6__content-card
+  {
+width:90%;
+position: static;
+margin:2em 0;
+padding:1em;
+
+}
+  .section-6__content-card-answer
+{
+transition: all 2s;
+transform: translate(0,0);
+display:block;
+border: #e8bf5d 2px solid;
+padding:2em;
+text-align: center;
+}
+.section-6__content-card-question
+{
+  text-align: center;
+}
+
+}
+
+@media screen and (max-width: 576px) 
+{
+
+}

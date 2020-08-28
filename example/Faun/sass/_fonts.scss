@@ -1,0 +1,32 @@
+@font-face {
+    font-family: 'BebasNeue Regular';
+    font-style: normal;
+    font-weight: 400;
+    src: local('BebasNeue Regular'), local('BebasNeue Regular'),
+         url('../fonts/Bebas/BebasNeue Regular.otf'),
+         url('../fonts/Bebas/BebasNeue Regular.ttf'),
+        /* IE6-IE8 */
+        
+}
+
+@font-face {
+    font-family: 'BebasNeue Thin';
+    font-style: normal;
+    font-weight: 100;
+    src: local('BebasNeue Thin'), local('BebasNeue Thin'),
+         url('../fonts/Bebas/BebasNeue Thin.otf'),
+         url('../fonts/Bebas/BebasNeue Thin.ttf'),
+        /* IE6-IE8 */
+        
+}
+
+@font-face {
+    font-family: 'BebasNeue Bold';
+    font-style: normal;
+    font-weight: 700;
+    src: local('BebasNeue Bold'), local('BebasNeue Bold'),
+         url('../fonts/Bebas/BebasNeue Bold.otf'),
+         url('../fonts/Bebas/BebasNeue Bold.ttf'),
+        /* IE6-IE8 */
+        
+}

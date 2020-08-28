@@ -1,0 +1,14 @@
+.photo{	
+	&__img-box{
+		filter: grayscale(100%);
+		padding: 0;
+		width: 100%;
+		list-style: none;
+		&:hover{
+			filter: grayscale(0);
+		}
+	}
+	&__img{
+		width: 100%;
+	}
+}

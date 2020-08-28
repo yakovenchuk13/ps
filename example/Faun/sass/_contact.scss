@@ -1,0 +1,40 @@
+.contact{
+	background: url(../img/contact_photo.png) center center no-repeat;
+	background-size: cover;
+	padding: 230px 0 270px 0;
+	&__box{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		text-align: center;
+	}
+	&__headline{
+		font-family: 'BebasNeue Bold', sans-serif;
+		text-transform: uppercase;
+		font-size: 72px;
+		margin-bottom: 60px;
+		color:$white;
+	}
+	&__text{
+		font-family: 'Raleway', sans-serif;
+		font-size: 14px;
+		line-height: 36px;
+		color:$white;
+	}
+	&__btn-box{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		margin-top: 68px;
+	}
+}
+
+
+@media (max-width: 768px){
+	.contact{
+		padding: 20px 0 70px 0;
+	}
+
+}
+

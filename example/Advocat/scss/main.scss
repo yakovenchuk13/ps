@@ -1,0 +1,144 @@
+@mixin flex ()
+
+{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+@mixin font-size__big
+
+{
+font-size: 32px;
+}
+
+@mixin font-size__medium
+
+{
+font-size: 21px;
+}
+
+@mixin font-size__normal
+
+{
+font-size: 16px;
+}
+
+@mixin font-size__small
+
+{
+font-size: 14px;
+}
+
+
+/* общие стили */
+body{
+	font-family: 'Playfair Display', serif;
+	margin: 0;
+	padding: 0;
+}
+.section-content__body{
+width: 80%;
+margin: 2vw auto;
+padding: 2vw 0;
+}
+.italic {
+	font-style: italic;
+}
+.txt-bold{
+	font-weight: bold;
+}
+.txt-gray {
+	color: #666666;
+}
+.txt-white{
+	color: white;
+}
+.section__title-wrapper 
+{
+border-left:  #e8bf5d 2px solid;
+padding-left: 10px;
+margin: 3vw 0;
+}
+
+.section__title {
+
+@include font-size__big;
+}
+
+.section__subtitle {
+@include font-size__normal;
+}
+
+
+.button
+{
+
+padding: 15px;
+cursor: pointer;
+
+width: 181px;
+height: 50px;
+
+border: 0px;
+border-radius: 25px;
+
+background-color: #e8bf5d;
+
+color: #111111;
+font-family: "Playfair Display";
+font-size: 16px;
+font-weight: bold;
+outline: none;
+
+}
+.button:hover {
+background-color: #f3b116;
+border: 1px solid #ee730e;
+color: #f7f7f7;
+transition: 0.3s;
+
+}
+
+/* общие стили end*/
+
+
+
+
+
+@import "header.scss";
+
+
+@import "section-1.scss";
+@import "section-2.scss";
+@import "section-3.scss";
+@import "section-4.scss";
+@import "section-5.scss";
+@import "section-6.scss";
+@import "section-7.scss";
+
+
+
+
+
+@media screen and (max-width: 992px) 
+{
+	.section-content__body{
+		width: 87%;
+		}
+}
+
+
+@media screen and (max-width: 769px) 
+{
+	.section-content__body{
+		width: 90%;
+		}
+}
+
+@media screen and (max-width: 576px) 
+{
+	.section-content__body{
+		width: 91%;
+		}
+}

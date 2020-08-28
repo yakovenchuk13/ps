@@ -1,0 +1,35 @@
+
+.section-1 {
+}
+
+.section-1__content-wrapper {
+display: flex;
+justify-content: space-between;
+}
+.section-1__first-block {
+width: 45%;
+
+}
+.section-1__first-block-title {
+@include font-size__medium;
+}
+.section-1__first-block-content {
+@include font-size__normal;
+}
+.section-1__second-block {
+width: 45%;
+}
+.section-1__second-block-title {
+}
+
+.section-1__second-block-content {
+}
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,52 @@
+.menu {
+    padding-top: 20px;
+    position: fixed;
+    left: -285px;
+    top: 0;
+    height: 100%;
+    width: 220px;
+    font-family: 'Open Sans', sans-serif;
+    background: #555; 
+    & ul {
+        margin: 0;
+        padding: 0;
+        list-style: none; 
+        border-top: 1px solid #555;     
+    }
+    &__item{
+        display: block;
+        padding: 5px 24px;
+        font-size: 18px;
+        line-height: 40px;
+        font-weight: bold;
+        color: #fff;
+        text-decoration: none;        
+        transition: 0.25s;       
+        border-bottom: 1px solid #555;
+        &:hover{
+            cursor: pointer;
+            background-color: $red;   
+        }  
+    }
+  }
+  
+  .icon{
+    &-close{
+        padding: 20px 100px;
+        cursor: pointer;
+    }
+    &-menu{
+        position: fixed;
+        padding: 25px;
+        padding-top: 10px;
+        z-index: 200;
+        width: 120px;
+        height: auto;
+        color: $red;
+        cursor: pointer;
+        text-decoration: none;
+        text-transform: uppercase;    
+    }
+  }
+  
+  
